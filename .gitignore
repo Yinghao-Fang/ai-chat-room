@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Local runtime data (SQLite DB - never commit chat data)
+server/data/
+
+# Logs & OS junk
+*.log
+.DS_Store
+Thumbs.db
+
+# Local env / secrets (never commit API keys)
+.env
+.env.*
+!.env.example

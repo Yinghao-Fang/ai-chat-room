@@ -1,0 +1,21 @@
+{
+  "name": "ai-chat-room",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI Chat Room - immersive English listening & speaking group chat with autonomous AI personas",
+  "scripts": {
+    "dev": "concurrently -n server,web -c blue,green \"npm:dev -w server\" \"npm:dev -w web\"",
+    "build": "npm run build -w web && npm run typecheck -w server",
+    "start": "npm run start -w server"
+  },
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "engines": {
+    "node": ">=23.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
