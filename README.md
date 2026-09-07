@@ -36,7 +36,7 @@ npm run dev
 ```
 
 `npm run dev` 会同时启动：
-- Web（Vite Dev Server）→ 打开终端提示的地址（默认 http://localhost:5173）
+- Web（Vite Dev Server）→ 打开终端提示的地址（默认 http://localhost:5174）
 - 后端（Fastify + Socket.IO）→ http://127.0.0.1:8787
 
 打开页面后：填入你的 **DeepSeek API Key** → 创建房间 → 开始沉浸。
